@@ -42,9 +42,9 @@ const ContactTable = () => {
             <td>{c.email}</td>
             <td>{c.phone || "-"}</td>
 
-            {/* ✅ ICON ACTIONS */}
+            {/*  ICON ACTIONS */}
             <td className="text-center">
-              {/* SHOW */}
+              
               <i
                 className="bi bi-eye-fill text-info me-3"
                 role="button"
@@ -52,7 +52,7 @@ const ContactTable = () => {
                 onClick={() => setSelected({ ...c, mode: "show" })}
               />
 
-              {/* EDIT */}
+             
               <i
                 className="bi bi-pencil-square text-secondary me-3"
                 role="button"
@@ -60,7 +60,7 @@ const ContactTable = () => {
                 onClick={() => setSelected({ ...c, mode: "edit" })}
               />
 
-              {/* DELETE (MISSING → FIXED) */}
+              
               <i
                 className="bi bi-trash-fill text-danger"
                 role="button"

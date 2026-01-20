@@ -21,7 +21,7 @@ const AddContact = () => {
   };
 
   const handleCancel = () => {
-    navigate(-1); // go back safely
+    navigate(-1); 
   };
 
   return (

@@ -1,5 +1,4 @@
-// src/pages/Home.jsx
-
+import React from "react";
 import ContactTable from "../components/ContactTable";
 import ShowModal from "../components/ShowModal";
 import EditModal from "../components/EditModal";
@@ -46,4 +45,4 @@ const Home = () => {
   );
 };
 
-export default Home;  // ✅  default export
+export default Home;  
